@@ -10,7 +10,7 @@ server.use(express.json());
 server.use(logger);
 
 // I don't know why these routes don't work when I test them.
-server.use('./api/actions', actionRouter);
+server.use('./api/a', actionRouter);
 server.use('./api/projects', projectRouter);
 
 
