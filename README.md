@@ -40,13 +40,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+1. express is an npm dependency that helps us build and route an api
+2. express.json causes the server to translate everything to json, which is useful. 
+
 - [ ] Describe Middleware?
+
+Functions that are ran between the front and back end, useful for validation.
 
 - [ ] Describe a Resource?
 
+The resource is the database we're working with.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+It can return a status code and data
+
 - [ ] How can we partition our application into sub-applications?
+
+With well exicuted file architecture, we can import parts of a server application into smaller parts which the front end can access with server-side routing.
 
 ## Minimum Viable Product
 

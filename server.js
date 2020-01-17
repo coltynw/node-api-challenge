@@ -8,8 +8,10 @@ const server = express();
 
 server.use(express.json());
 server.use(logger);
-server.use('./api/action', actionRouter);
-server.use('./api/project', projectRouter);
+
+// I don't know why these routes don't work when I test them.
+server.use('./api/actions', actionRouter);
+server.use('./api/projects', projectRouter);
 
 
 server.get('/', (request, response) => {
